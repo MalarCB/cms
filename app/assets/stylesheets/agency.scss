@@ -262,6 +262,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
+    background: url(asset-url('header-bg.jpg')) no-repeat top center;
     text-align: center;
     color: #fff;
     background-attachment: scroll;
@@ -652,7 +653,6 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(map-image.png);
     background-position: center;
     background-repeat: no-repeat;
 }
