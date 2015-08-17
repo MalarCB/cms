@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   # root 'welcome#index'
 
   root 'home#index'
+
+  get 'services', to: 'home#services', as: :services
 end
