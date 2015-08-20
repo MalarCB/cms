@@ -8,4 +8,8 @@ Rails.application.routes.draw do
   root 'home#index'
 
   get 'services', to: 'home#services', as: :services
+
+  get 'contact', to: 'contact#index', as: :contact
+  match 'contact', to: 'contact#save', as: :save_contact, via: [:post, :put, :patch]
+
 end

@@ -1,10 +1,10 @@
 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
   <ul class="nav navbar-nav navbar-right">
     <li class="hidden">
-      <a href="#page-top"></a>
+      <a href="/"></a>
     </li>
     <li>
-      <a class="page-scroll" href="#services">Services</a>
+      <%= link_to 'Services', services_path,  class: "page-scroll" %>
     </li>
     <li>
       <a class="page-scroll" href="#portfolio">Portfolio</a>
@@ -13,10 +13,10 @@
       <a class="page-scroll" href="#about">About</a>
     </li>
     <li>
-      <a class="page-scroll" href="#team">Team</a>
+      <a class="page-scroll" href="#team">Gallery</a>
     </li>
     <li>
-      <a class="page-scroll" href="#contact">Contact</a>
+      <%= link_to 'Contact Us', contact_path,  class: "page-scroll" %>
     </li>
   </ul>
 </div>

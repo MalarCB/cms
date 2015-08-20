@@ -25,8 +25,11 @@
 </head>
 <body id="page-top" class="index">
 <%= render 'home/topbar'%>
+<%= render 'layouts/head' %>
 
 <%= yield %>
+<%= render 'layouts/footer'%>
+
 <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 
 </body>

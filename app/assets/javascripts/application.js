@@ -11,12 +11,13 @@
 // about supported directives.
 //
 //= require jquery
-//= require bootstrap
 //= require jquery_ujs
-//= require turbolinks
+//= require bootstrap-sprockets
+//= require jqBootstrapValidation
 //= require_tree .
 
 $(function() {
+/*
   $('a.page-scroll').bind('click', function(event) {
     var $anchor = $(this);
     $('html, body').stop().animate({
@@ -24,6 +25,7 @@ $(function() {
     }, 1500, 'easeInOutExpo');
     event.preventDefault();
   });
+*/
 
   $('#myCarousel').carousel({
     interval:   5000

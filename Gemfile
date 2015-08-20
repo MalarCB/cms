@@ -27,7 +27,7 @@ gem 'compass', '1.0.3'
 gem 'compass-rails', '2.0.4'
 gem 'haml-rails'
 gem 'remotipart', '~> 1.2'
-
+gem 'bootstrap-sass'
 gem 'httparty'
 gem 'json'
 gem 'therubyracer', :platform => :ruby
@@ -65,4 +65,8 @@ group :development, :test do
 end
 
 gem "less-rails"
+
+gem 'thin'
+
+
 
