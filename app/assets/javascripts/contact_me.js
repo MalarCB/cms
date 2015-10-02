@@ -17,7 +17,6 @@ $(function() {
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
-          console.log('test');
             $.ajax({
                 url: "/contact",
                 type: "POST",
